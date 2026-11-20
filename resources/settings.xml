@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <section id="service.library.updatarr">
+        <category id="scope" label="32001">
+            <group id="scope_g1">
+                <setting id="process_movies" type="boolean" label="32010" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="process_tvshows" type="boolean" label="32011" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="process_episodes" type="boolean" label="32012" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_poster" type="boolean" label="32013" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_fanart" type="boolean" label="32014" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_thumb" type="boolean" label="32015" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_plot" type="boolean" label="32016" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_title" type="boolean" label="32017" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_rating" type="boolean" label="32018" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="check_cast" type="boolean" label="32019" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+        </category>
+        <category id="local" label="32002">
+            <group id="local_g1">
+                <setting id="enable_local_artwork" type="boolean" label="32020" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="enable_local_nfo" type="boolean" label="32021" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+        </category>
+        <category id="scrapers" label="32003">
+            <group id="scrapers_g1">
+                <setting id="enable_scraper_pass" type="boolean" label="32030" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="ignore_nfo" type="boolean" label="32031" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="refresh_show_episodes" type="boolean" label="32032" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="context_refresh_episodes" type="boolean" label="32033" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="delay_ms" type="integer" label="32034" help="">
+                    <level>0</level>
+                    <default>3000</default>
+                    <constraints>
+                        <minimum>0</minimum>
+                        <step>250</step>
+                    </constraints>
+                    <control type="edit" format="integer">
+                        <heading>32034</heading>
+                    </control>
+                </setting>
+                <setting id="batch_size" type="integer" label="32035" help="">
+                    <level>0</level>
+                    <default>100</default>
+                    <constraints>
+                        <minimum>10</minimum>
+                        <step>10</step>
+                    </constraints>
+                    <control type="edit" format="integer">
+                        <heading>32035</heading>
+                    </control>
+                </setting>
+            </group>
+        </category>
+        <category id="scheduling" label="32004">
+            <group id="scheduling_g1">
+                <setting id="enable_schedule" type="boolean" label="32040" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="schedule_interval_hours" type="integer" label="32041" help="">
+                    <level>0</level>
+                    <default>24</default>
+                    <constraints>
+                        <minimum>1</minimum>
+                        <step>1</step>
+                    </constraints>
+                    <control type="edit" format="integer">
+                        <heading>32041</heading>
+                    </control>
+                </setting>
+                <setting id="run_while_idle" type="boolean" label="32042" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="notify_on_schedule" type="boolean" label="32043" help="">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="debug_log" type="boolean" label="32044" help="">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="verbose_log" type="boolean" label="32045" help="32046">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+        </category>
+        <category id="actions" label="32005">
+            <group id="actions_g1">
+                <setting id="run_now" type="action" label="32050" help="">
+                    <level>0</level>
+                    <data>RunAddon(service.library.updatarr,run_now)</data>
+                    <control type="button" format="action">
+                        <close>true</close>
+                    </control>
+                </setting>
+                <setting id="dry_run" type="action" label="32051" help="">
+                    <level>0</level>
+                    <data>RunAddon(service.library.updatarr,dry_run)</data>
+                    <control type="button" format="action">
+                        <close>true</close>
+                    </control>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>

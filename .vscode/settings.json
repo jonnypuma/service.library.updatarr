@@ -1,0 +1,7 @@
+{
+  "basedpyright.analysis.stubPath": "typings",
+  "python.analysis.stubPath": "typings",
+  "basedpyright.analysis.diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none"
+  }
+}

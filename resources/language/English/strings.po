@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "#32000"
+msgid "Fix Missing Metadata/Artwork"
+msgstr "Fix Missing Metadata/Artwork"
+
+msgctxt "#32001"
+msgid "Scope"
+msgstr "Scope"
+
+msgctxt "#32002"
+msgid "Local Sources"
+msgstr "Local Sources"
+
+msgctxt "#32003"
+msgid "Online Scrapers"
+msgstr "Online Scrapers"
+
+msgctxt "#32004"
+msgid "Scheduling"
+msgstr "Scheduling"
+
+msgctxt "#32005"
+msgid "Actions"
+msgstr "Actions"
+
+msgctxt "#32010"
+msgid "Process movies"
+msgstr "Process movies"
+
+msgctxt "#32011"
+msgid "Process TV shows"
+msgstr "Process TV shows"
+
+msgctxt "#32012"
+msgid "Process episodes"
+msgstr "Process episodes"
+
+msgctxt "#32013"
+msgid "Check for missing poster"
+msgstr "Check for missing poster"
+
+msgctxt "#32014"
+msgid "Check for missing fanart"
+msgstr "Check for missing fanart"
+
+msgctxt "#32015"
+msgid "Check for missing thumb"
+msgstr "Check for missing thumb"
+
+msgctxt "#32016"
+msgid "Check for missing plot"
+msgstr "Check for missing plot"
+
+msgctxt "#32017"
+msgid "Check for missing title"
+msgstr "Check for missing title"
+
+msgctxt "#32018"
+msgid "Check for missing rating"
+msgstr "Check for missing rating"
+
+msgctxt "#32019"
+msgid "Check for missing cast"
+msgstr "Check for missing cast"
+
+msgctxt "#32020"
+msgid "Apply local artwork files"
+msgstr "Apply local artwork files"
+
+msgctxt "#32021"
+msgid "Apply local NFO metadata"
+msgstr "Apply local NFO metadata"
+
+msgctxt "#32030"
+msgid "Enable scraper refresh pass"
+msgstr "Enable scraper refresh pass"
+
+msgctxt "#32031"
+msgid "Ignore local NFO when refreshing"
+msgstr "Ignore local NFO when refreshing"
+
+msgctxt "#32032"
+msgid "Refresh episodes when refreshing a TV show"
+msgstr "Refresh episodes when refreshing a TV show"
+
+msgctxt "#32033"
+msgid "Include seasons and episodes when fixing a show from context menu"
+msgstr "Include seasons and episodes when fixing a show from context menu"
+
+msgctxt "#32034"
+msgid "Delay between scraper refreshes (ms)"
+msgstr "Delay between scraper refreshes (ms)"
+
+msgctxt "#32035"
+msgid "Library query batch size"
+msgstr "Library query batch size"
+
+msgctxt "#32040"
+msgid "Enable scheduled background runs"
+msgstr "Enable scheduled background runs"
+
+msgctxt "#32041"
+msgid "Schedule interval (hours)"
+msgstr "Schedule interval (hours)"
+
+msgctxt "#32042"
+msgid "Only run when no video is playing"
+msgstr "Only run when no video is playing"
+
+msgctxt "#32043"
+msgid "Show notification after scheduled run"
+msgstr "Show notification after scheduled run"
+
+msgctxt "#32044"
+msgid "Enable debug logging"
+msgstr "Enable debug logging"
+
+msgctxt "#32045"
+msgid "Verbose local source logging"
+msgstr "Verbose local source logging"
+
+msgctxt "#32046"
+msgid "Log NFO and artwork paths searched, found, applied, and skipped (Kodi log)"
+msgstr "Log NFO and artwork paths searched, found, applied, and skipped (Kodi log)"
+
+msgctxt "#32050"
+msgid "Run Now"
+msgstr "Run Now"
+
+msgctxt "#32051"
+msgid "Dry Run (scan only)"
+msgstr "Dry Run (scan only)"
+
+msgctxt "#32052"
+msgid "Run the update now?"
+msgstr "Run the update now?"
+
+msgctxt "#32053"
+msgid "Existing job detected"
+msgstr "Existing job detected"
+
+msgctxt "#32054"
+msgid "Resume Job"
+msgstr "Resume Job"
+
+msgctxt "#32055"
+msgid "Start Fresh"
+msgstr "Start Fresh"
+
+msgctxt "#32056"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "#32057"
+msgid "Could not load the saved job."
+msgstr "Could not load the saved job."
+
+msgctxt "#32058"
+msgid "Resuming saved job…"
+msgstr "Resuming saved job…"
+
+msgctxt "#32059"
+msgid "Applying updates…"
+msgstr "Applying updates…"
+
+msgctxt "#32060"
+msgid "Scanning library…"
+msgstr "Scanning library…"
+
+msgctxt "#32070"
+msgid "Remove from library"
+msgstr "Remove from library"
+
+msgctxt "#32071"
+msgid "Remove \"%s\" from the Kodi video library?\n\nFiles on disk are not deleted."
+msgstr "Remove \"%s\" from the Kodi video library?\n\nFiles on disk are not deleted."
+
+msgctxt "#32072"
+msgid "Removed from library: %s"
+msgstr "Removed from library: %s"
+
+msgctxt "#32073"
+msgid "Could not remove %s:\n%s"
+msgstr "Could not remove %s:\n%s"
+
+msgctxt "#32075"
+msgid "Could not determine library item."
+msgstr "Could not determine library item."
+
+msgctxt "#32061"
+msgid "Fix missing metadata/artwork for:\n%s?"
+msgstr "Fix missing metadata/artwork for:\n%s?"
+
+msgctxt "#32062"
+msgid "Processing %s…"
+msgstr "Processing %s…"
+
+msgctxt "#32063"
+msgid "Another Library Updatarr run is already in progress."
+msgstr "Another Library Updatarr run is already in progress."
+
+msgctxt "#32064"
+msgid "Scan canceled."
+msgstr "Scan canceled."
+
+msgctxt "#32065"
+msgid "Dry run (scan only)"
+msgstr "Dry run (scan only)"
+
+msgctxt "#32066"
+msgid "Update missing data"
+msgstr "Update missing data"
+
+msgctxt "#32067"
+msgid "Continue?"
+msgstr "Continue?"
+
+msgctxt "#32068"
+msgid "Error:\n%s"
+msgstr "Error:\n%s"
